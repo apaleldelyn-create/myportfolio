@@ -87,6 +87,21 @@ p {
     background-color: #0f5cd1; 
 }
 
+/* =================================================== */
+/* ACTIVITY 2: ABOUT ME SECTION                        */
+/* =================================================== */
+
+#about {
+    background-color: #ffffff; 
+    padding: 25px;            
+    border: 1px solid #d0d7de; 
+    border-radius: 10px;     
+}
+
+#about ul {
+    margin-left: 25px;   
+    margin-bottom: 10px; 
+}
 
 
 
