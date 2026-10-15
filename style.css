@@ -128,6 +128,44 @@ p {
 }
 
 /* =================================================== */
+/* ACTIVITY 6: WEBSITE MENU                            */
+/* =================================================== */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* keeps headings visible below the sticky menu */
+}
+
+header {
+    background-color: #1f3a5f;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #3b6ea5;
+    text-decoration: underline;
+}
+
+/* =================================================== */
 /* ACTIVITY 4: PROJECTS SECTIONS  */
 /* =================================================== */
 .projects-container {
