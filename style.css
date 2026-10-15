@@ -334,6 +334,24 @@ a:focus-visible {
 }
 
 /* =================================================== */
+/* ACTIVITY 9: FOOTER                                  */
+/* =================================================== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8eef5;
+}
+
+img {
+    max-width: 100%;
+}
+
+p,
+a {
+    overflow-wrap: anywhere;
+}
+
+/* =================================================== */
 /* ACTIVITY 8: PORTFOLIO WORK ON PHONES                */
 /* =================================================== */
 @media (max-width: 900px) {
