@@ -239,5 +239,77 @@
                     </table>
                 </div>
             </section>
+            <!-- =========================================== -->
+            <!-- ACTIVITY 7: CONTACT SECTION AND FORM        -->
+            <!-- =========================================== -->
+            <section id="contact" class="section-box">
+                <h2>Contact Me</h2>
+                <p>
+                    If you would like to know more about me or work on a school
+                    project together, you can contact me by email.
+                </p>
+                
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:apal.eldelyn@gmail.com"
+                        >apal.eldelyn@gmail.com</a
+                    >
+
+                <form
+                    class="contact-form"
+                    action="mailto:apal.eldelyn@gmail.com"
+                    method="post"
+                    enctype="text/plain"
+                >
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your full name"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="What is your message about?"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message here"
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="send-button">
+                        Send Message
+                    </button>
+                </form>
+            </section>
+        </main>
     </body>
 </html>
