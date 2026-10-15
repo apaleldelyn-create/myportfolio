@@ -178,4 +178,44 @@ p {
     background-color: #091d3d;
 }
 
+/* =================================================== */
+/* ACTIVITY 5: EDUCATION AND EXPERIENCE TABLE */
+/* =================================================== */
+.table-wrapper {
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    color: #1f3a5f;
+    padding-bottom: 8px;
+}
+
+th,
+td {
+    border: 1px solid #d0d7de;
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #1f3a5f;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f4f6f8;
+}
+
+tbody tr:hover {
+    background-color: #e8eef5;
+}
 
